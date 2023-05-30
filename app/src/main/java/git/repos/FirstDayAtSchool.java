@@ -1,10 +1,10 @@
 /**
- * Clase a probar en el código ejemplo para el control de junio de 2022
+ * Clase a probar en el cï¿½digo ejemplo para el control de junio de 2022
  */
-package muit.fs.junio22;
+package git.repos;
 
 /**
- * @author Isabel Román
+ * @author Isabel Romï¿½n
  *
  */
 
@@ -34,7 +34,7 @@ public class FirstDayAtSchool {
 	}
 
 	public int getNumberOf(String thingName) {
-		int number = 10;
+		int number = 0;
 		if (schoolbag.containsKey(thingName)) {
 			number = number + schoolbag.get(thingName).intValue();
 		}
